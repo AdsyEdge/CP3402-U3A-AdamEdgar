@@ -12,7 +12,7 @@ jobs:
           host: ${{ secrets.HOST }} # The IP address of the Wordpress Server
           key: ${{ secrets.KEY }} # The Private SSH Key for the server
           username: ${{ secrets.USERNAME }} # The username of the server (default is currently root)
-          script: |
+          script: | # Operates script to pull github repo to remote server
             mkdir test
             cd test
             git clone https://github.com/AdsyEdge/CP3402-U3A-AdamEdgar.git
