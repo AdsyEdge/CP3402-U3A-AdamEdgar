@@ -15,7 +15,8 @@ jobs:
         key: ${{ secrets.SSH_KEY }} # The Private SSH Key for the server
         script: |
           mkdir test
-          git clone https://github.com/AdsyEdge/CP3402-U3A-AdamEdgar.git /test
+          cd test
+          git clone https://github.com/AdsyEdge/CP3402-U3A-AdamEdgar.git
 
         # cd ..
         # cd /var/www/html/wp-content/themes
