@@ -7,13 +7,13 @@ jobs:
   deploy:
   name: Deploy
   runs-on: ubuntu-latest
-  steps:
-    name: deploy via SSH
-    uses: appleboy/ssh-action@v0.1.10
-    with:
-      host: ${{secrets.SSH_HOST}} # The IP address of the Wordpress Server
-      key: ${{secrets.SSH_KEY}} # The Private SSH Key for the server
-      username: ${{secrets:SSH_USERNAME}} # The username of the server (default is root)
+    steps:
+    - name: Deploy via SSH
+      uses: appleboy/ssh-action@main
+      with:
+        host: ${{secrets.SSH_HOST}} # The IP address of the Wordpress Server
+        key: ${{secrets.SSH_KEY}} # The Private SSH Key for the server
+        username: ${{secrets:SSH_USERNAME}} # The username of the server (default is root)
 
       script: |
         mkdir test
