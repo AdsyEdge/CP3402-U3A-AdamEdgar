@@ -14,5 +14,5 @@ jobs:
           username: ${{ secrets.USERNAME }} # The username of the server (default is currently root)
           script: | # Operates script to pull github repo to remote server
             cd /var/www/html/wp-content/themes
-            git clone https://github.com/AdsyEdge/CP3402-U3A-AdamEdgar local
+            git clone --branch local https://github.com/AdsyEdge/CP3402-U3A-AdamEdgar.git
             echo 'Deployment to production site successful'
