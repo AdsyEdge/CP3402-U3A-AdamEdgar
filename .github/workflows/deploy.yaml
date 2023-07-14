@@ -13,6 +13,6 @@ jobs:
           key: ${{ secrets.KEY }} # The Private SSH Key for the server
           username: ${{ secrets.USERNAME }} # The username of the server (default is currently root)
           script: | # Operates script to pull github repo to remote server
-            cd /var/www/html/wp-content/themes
-            git clone --branch local https://github.com/AdsyEdge/CP3402-U3A-AdamEdgar.git
+            cd /var/www/html/wp-content
+            git clone --branch local https://github.com/AdsyEdge/CP3402-U3A-AdamEdgar.git themes
             echo 'Deployment to production site successful'
