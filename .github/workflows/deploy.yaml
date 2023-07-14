@@ -11,7 +11,7 @@ jobs:
       uses: appleboy/ssh-action@v0.1.10
       with:
         host: ${{ secrets.SSH_HOST }} # The IP address of the Wordpress Server
-        username: ${{ secrets.SSH_USER }} # The username of the server (default is root)
+        username: ${{ secrets.SSH_USERNAME }} # The username of the server (default is root)
         key: ${{ secrets.SSH_KEY }} # The Private SSH Key for the server
         script: |
           mkdir test
