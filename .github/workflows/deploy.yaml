@@ -16,7 +16,7 @@ jobs:
         script: |
           mkdir test
           cd test
-          git clone
+          git clone https://github.com/AdsyEdge/CP3402-U3A-AdamEdgar.git
 
         # cd ..
         # cd /var/www/html/wp-content/themes
