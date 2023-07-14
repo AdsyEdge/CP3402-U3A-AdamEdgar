@@ -1,8 +1,6 @@
 name: Deploy to production site
 on:
-  push:
-    branches:
-      - local
+  push: # Detects when a push to the Repo is operated, and initiates
 
 jobs:
   deployment:
