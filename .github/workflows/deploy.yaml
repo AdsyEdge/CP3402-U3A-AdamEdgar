@@ -14,6 +14,7 @@ jobs:
         username: ${{ secrets.SSH_USER }} # The username of the server (default is root)
         key: ${{ secrets.SSH_KEY }} # The Private SSH Key for the server
         script: |
+          mkdir test
           git clone https://github.com/AdsyEdge/CP3402-U3A-AdamEdgar.git /test
 
         # cd ..
