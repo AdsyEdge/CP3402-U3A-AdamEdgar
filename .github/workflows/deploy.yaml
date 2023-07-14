@@ -12,7 +12,7 @@ jobs:
       with:
         host: ${{secrets.SSH_HOST}} # The IP address of the Wordpress Server
         key: ${{secrets.SSH_KEY}} # The Private SSH Key for the server
-        username: ${{secrets:SSH_USER}} # The username of the server (default is root)
+        username: ${{secrets.SSH_USER}} # The username of the server (default is root)
         script: |
           mkdir test
           cd test
