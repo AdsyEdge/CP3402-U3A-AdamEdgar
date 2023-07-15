@@ -6,3 +6,7 @@ Template: twentytwentyone
 Version: 1.0.1
 Text Domain: twentyfifteenchild
 */
+
+body {
+    background-color: #ff0000;
+}
