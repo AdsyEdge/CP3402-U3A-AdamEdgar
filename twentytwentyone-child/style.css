@@ -4,7 +4,7 @@ Description: Twenty Twenty One Child Theme
 Author: Adam Edgar
 Template: twentytwentyone
 Version: 1.0.1
-Text Domain: twentytwentyonechild
+Text Domain: twentytwentyone-child
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -13,6 +13,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     padding-left: 40px;
 }
 
+body {
+    background-color: #effeff !important;
+}
+
 div .powered-by {
     width: 200px !important;
+}
+
+.footer-nav-widgets-wrapper, #site-footer {
+	background-color: #DFE5F5;
+}
+
+.footer-widgets-outer-wrapper, .footer-top {
+    border-color: #000;
 }
