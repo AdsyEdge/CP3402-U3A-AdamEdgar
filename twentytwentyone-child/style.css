@@ -21,10 +21,14 @@ div .powered-by {
     white-space: nowrap !important;
 }
 
-.footer-nav-widgets-wrapper, #site-footer {
-	background-color: #fbfbff;
+.site-footer {
+	background-color: #98c5ff !important;
 }
 
 .footer-widgets-outer-wrapper, .footer-top {
     border-color: #000;
+}
+
+.site-header {
+    background-color: #98c5ff;
 }
