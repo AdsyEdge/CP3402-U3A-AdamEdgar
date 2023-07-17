@@ -18,11 +18,11 @@ body {
 }
 
 div .powered-by {
-    width: 200px !important;
+    white-space: nowrap !important;
 }
 
 .footer-nav-widgets-wrapper, #site-footer {
-	background-color: #DFE5F5;
+	background-color: #fbfbff;
 }
 
 .footer-widgets-outer-wrapper, .footer-top {
