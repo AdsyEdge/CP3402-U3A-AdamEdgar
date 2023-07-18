@@ -13,22 +13,88 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     padding-left: 40px;
 }
 
+.site-content {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+}
+
 body {
     background-color: #effeff !important;
 }
 
 div .powered-by {
     white-space: nowrap !important;
+    padding-right: 10%;
+}
+
+.powered-by a{
+    color: #fff !important;
 }
 
 .site-footer {
-	background-color: #98c5ff !important;
+	background-color: #015ab9 !important;
+    position: relative !important;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-widgets-outer-wrapper, .footer-top {
     border-color: #000;
 }
 
+.site-branding {
+    color: #fff !important;
+    padding-left: 10%;
+}
+
 .site-header {
-    background-color: #98c5ff;
+    background-color: #015ab9;
+}
+
+.primary-navigation {
+    color: #fff !important;
+    padding-right: 10%;
+}
+
+.menu-wrapper a {
+    color: #fff !important;
+}
+
+.site-title {
+    color: #fff !important;
+}
+
+.site-title:hover {
+    color: #c4c4ff !important;
+}
+
+.site-info {
+    color: #fff !important;
+}
+
+.site-name {
+    color: #fff !important;
+    padding-left: 10%;
+}
+
+.site-header {
+    text-align: left !important;
+}
+
+:root {
+	--responsive--alignfull-width: 100% !important;
+}
+
+@media only screen and (min-width: 482px) {
+
+	:root {
+		--responsive--alignwide-width: 100% !important;
+	}
+}
+
+@media only screen and (min-width: 822px) {
+
+	:root {
+		--responsive--alignwide-width: 100% !important;
+	}
 }

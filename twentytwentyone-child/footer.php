@@ -45,29 +45,15 @@
 					<div class="site-logo"><?php the_custom_logo(); ?></div>
 				<?php else : ?>
 					<?php if ( get_bloginfo( 'name' ) && get_theme_mod( 'display_title_and_tagline', true ) ) : ?>
-						<?php if ( is_front_page() && ! is_paged() ) : ?>
-							<?php bloginfo( 'name' ); ?>
-						<?php else : ?>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
-						<?php endif; ?>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="site-name"><?php bloginfo( 'name' ); ?></a>
 					<?php endif; ?>
 				<?php endif; ?>
 			</div><!-- .site-name -->
 
-			<?php
-			if ( function_exists( 'the_privacy_policy_link' ) ) {
-				the_privacy_policy_link( '<div class="privacy-policy">', '</div>' );
-			}
-			?>
+			<p>Hello, World!</p>
 
 			<div class="powered-by">
-				<?php
-				printf(
-					/* translators: %s: WordPress. */
-					esc_html__( 'Designed by %s', 'twentytwentyone' ),
-					'<p>Adam Edgar</p>'
-				);
-				?>
+				<p>Designed by <a href="https://github.com/AdsyEdge">Adam Edgar</a></p>
 			</div><!-- .powered-by -->
 
 		</div><!-- .site-info -->
