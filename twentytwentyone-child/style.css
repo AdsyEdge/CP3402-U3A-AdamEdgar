@@ -33,13 +33,9 @@ div .powered-by {
 
 .site-footer {
 	background-color: #015ab9 !important;
-    position: relative !important;
-    bottom: 0;
+    position: relative;
     width: 100%;
-}
-
-.footer-widgets-outer-wrapper, .footer-top {
-    border-color: #000;
+    height: 175px;
 }
 
 .site-branding {
@@ -70,6 +66,7 @@ div .powered-by {
 
 .site-info {
     color: #fff !important;
+    border-top: 0px !important;
 }
 
 .site-name {
