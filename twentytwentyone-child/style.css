@@ -58,6 +58,10 @@ div .powered-by {
     font-size: 30px !important;
 }
 
+.menu-item-description {
+    display: none !important;
+}
+
 .svg-icon {
     width: 30px !important;
     height: 30px !important;
