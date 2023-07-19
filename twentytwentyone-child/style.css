@@ -50,10 +50,18 @@ div .powered-by {
 .primary-navigation {
     color: #fff !important;
     padding-right: 10%;
+    font-size: 30px !important;
 }
 
 .menu-wrapper a {
     color: #fff !important;
+    font-size: 30px !important;
+}
+
+.svg-icon {
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: calc(0.66 * var(--global--spacing-unit)) !important;
 }
 
 .site-title {
@@ -62,6 +70,10 @@ div .powered-by {
 
 .site-title:hover {
     color: #c4c4ff !important;
+}
+
+.menu-item {
+    background-color: #015ab9 !important;
 }
 
 .site-info {
