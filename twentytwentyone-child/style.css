@@ -81,6 +81,10 @@ div .powered-by {
     color: #c4c4ff !important;
 }
 
+.wp-block-post-title {
+    color: #000 !important;
+}
+
 .menu-item {
     background-color: #015ab9 !important;
 }
