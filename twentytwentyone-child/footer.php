@@ -29,7 +29,7 @@
 			</div><!-- .site-name -->
 
 			<div class="powered-by">
-				<p>Copyright &#169; 2023 | <a href="https://github.com/AdsyEdge">Adam Edgar</a></p>
+				<p>Copyright &#169; 2023&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/AdsyEdge">Adam Edgar</a></p>
 			</div><!-- .powered-by -->
 
 		</div><!-- .site-info -->
