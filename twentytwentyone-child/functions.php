@@ -12,4 +12,8 @@ function my_theme_enqueue_styles() {
         $theme->get('Version')
     );
 }
+
+@ini_set( 'upload_max_size' , '256M' );
+@ini_set( 'post_max_size', '256M');
+@ini_set( 'max_execution_time', '300' );
 ?>
