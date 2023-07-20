@@ -81,6 +81,10 @@ div .powered-by {
     background-color: #015ab9 !important;
 }
 
+.primary-navigation .sub-menu {
+    border: 3px solid #004288 !important;
+}
+
 .site-info {
     color: #fff !important;
     border-top: 0px !important;
