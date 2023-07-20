@@ -45,6 +45,7 @@ div .powered-by {
 
 .site-header {
     background-color: #015ab9;
+    padding: 50px 0px 50px !important;
 }
 
 .primary-navigation {
@@ -83,10 +84,11 @@ div .powered-by {
 .site-info {
     color: #fff !important;
     border-top: 0px !important;
+    margin-bottom: 50px !important;
+    padding-top: 0px !important;
 }
 
 .site-name {
-    color: #fff !important;
     padding-left: 10%;
 }
 
