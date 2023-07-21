@@ -39,7 +39,7 @@ You then can fill in your details for the class. Once this is done, and you've p
 To check if anyone has registered on the website, navigate to Wordpress's dashboard, and then click on Forminator on the far left, then click on submissions. Any and all submissions will be in this area.
 
 ### U3A Specific - Photos
-To add any new photos, naviagte to Wordpress's dashboard, and then Photo Gallery. Hover over the already created gallery, name 'Photo Gallery' and click edit. From there, click on 'Import from Media Library' and then upload any new photos you want added.
+To add any new photos, navigate to Wordpress's dashboard, and then Photo Gallery. Hover over the already created gallery, name 'Photo Gallery' and click edit. From there, click on 'Import from Media Library' and then upload any new photos you want added.
 
 ### U3A Specific - Newsletters
-To add any new newsletters, you'll have to first upload them to 'media'. Once that's done, navigate to 'pages' and then edit the 'Newsletter' page. Add in your Newsletter file by typing in '/files' for the files block to be added in. Then, choose your newly added newsletter to include to the page.
+To add any new newsletters, you'll have to first disable "Classic Editor" in the plugins. Then, you can upload them to 'media'. Once that's done, navigate to 'pages' and then edit the 'Newsletter' page. Add in your Newsletter file by typing in '/files' for the files block to be added in. Then, choose your newly added newsletter to include to the page. Once you're done, go ahead and re-enable "Classic Editor" in the plugins.
