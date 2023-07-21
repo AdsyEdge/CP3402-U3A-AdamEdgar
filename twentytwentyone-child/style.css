@@ -9,13 +9,27 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .about-us-header {
     padding-left: 5px;
 }
 
+.primary-navigation, .entry-title, .entry-content, ul, ol, li, h1, h2, h3, h4, a {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.entry-content p,ul,ol,li{
+    font-size: 25px !important;
+}
+
 .site-content {
-    margin-left: 15% !important;
-    margin-right: 15% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+q {
+    font-family:'Times New Roman', Times, serif;
 }
 
 .custom-logo {
@@ -106,17 +120,17 @@ div .powered-by {
 
 .wrap-text-right {
     float: right;
-    margin: 5px;
+    margin: 10px;
     width: 400px;
-    height: 400px;
+    height: 100%;
     object-fit: cover;
 }
 
-.wrap-text-left {
-    float: left;
-    margin: 5px;
-    width: 400px;
-    height: 400px;
+.wrap-text-right-90 {
+    float: right;
+    margin: 10px;
+    width: 380px;
+    height: 90%;
     object-fit: cover;
 }
 
