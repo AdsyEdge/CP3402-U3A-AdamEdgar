@@ -28,6 +28,8 @@ After this, the deploy.yaml code will detect the push and operate these changes:
  - git pull's the 'local' branch of the repository.
  - echo's back that deployment was successful.
 
+## U3A Specific
+
 ### U3A Specific - Classes
 For creating new classes for the site, you'll need to go to the posts tab and 'add new'.
 You then select in the far-right menu, the category U3A Classes, then the category for whether it's in Magnetic Island or Townsville, then a category for what day (Monday - Townsville).
