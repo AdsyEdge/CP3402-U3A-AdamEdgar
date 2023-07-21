@@ -134,6 +134,10 @@ div .powered-by {
     object-fit: cover;
 }
 
+.site-main{
+    padding-top: 0px !important;
+}
+
 .post-thumbnail,
 .entry-content .wp-audio-shortcode,
 .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator),
@@ -168,4 +172,20 @@ div .powered-by {
 	:root {
 		--responsive--alignwide-width: 100% !important;
 	}
+}
+
+.landing-banner {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.landing-banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
